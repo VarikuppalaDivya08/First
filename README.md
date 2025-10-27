@@ -2,13 +2,13 @@ def find_class(branch, year, section):
     # Mini database of classroom details
     class_info = {
         ("CSE", 1, "A"): "South Block - Room G0 (Gnd Floor)",
-        ("CSE", 1, "B"): "South Block - Room 1 (1st Floor)",
+        ("CSE", 1, "B"): "South Block - Room 106 (1st Floor)",
         ("ECE", 1, "A"): "North Block  - Room 111 (1st Floor)",
         ("ECE", 1, "B"): "North Block - Room 211 (2nd Floor)",
-        ("EEE", 1,"A"): "North Block - Room G0 (Gnd Floor)",
-        ("IT", 1, "A"): " South Block - Room 2 (2nd Floor)",
-        ("IT", 1, "B"): "South Block - Room 301 (3rd Floor)",
-        ("CSM", 1, "A"): "North Block  - Room 301 (3rd Floor)"
+        ("EEE", 1,"A"): "North Block - Room G12 (Gnd Floor)",
+        ("IT", 1, "A"): " South Block - Room 205 (2nd Floor)",
+        ("IT", 1, "B"): "South Block - Room 305 (3rd Floor)",
+        ("CSM", 1, "A"): "North Block  - Room 311 (3rd Floor)"
     }
 
     key = (branch.upper(), year, section.upper())
